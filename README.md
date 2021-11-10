@@ -29,7 +29,8 @@ CRISP-DM is the methodology selected for the project. CRISP-DM stands for cross 
     3. Data preprocessing
     4. Modelling
     5. Evaluation
-[https://drive.google.com/file/d/1JkFG77Z3CDEq9YmUuF-i1uV5rVvEm_p4/view?usp=sharing]
+![Picture2](https://user-images.githubusercontent.com/78141360/141084132-e2f286e6-909f-45d0-b027-f77fe88c1357.png)
+
 
 ## Implementation
 
@@ -47,8 +48,9 @@ Exploratory data analysis refers to the critical process of conducting an initia
 Class imbalance is considered to be a massive problem in classification problems. To handle the class imbalance problem, two methods can be used, upsampling and downsampling.  
 In this case, the minority class has a decent amount of rows. Hence it was optimal to use downsampling for this project.  
 Random downsampling is an approach in which the majority class is brought down to the size of the minority class. This method is used to solve the problem of class imbalance. To perform random down-sampling, no external libraries or pre-defined function were used.  
-[https://drive.google.com/file/d/1flmggL-vymeLnhKakdH_YHtG49OQsSa8/view?usp=sharing]
-[https://drive.google.com/file/d/1EV-b9Ohz848POGKPhDbQbFKfaqZP-FSs/view?usp=sharing]
+
+![Picture4](https://user-images.githubusercontent.com/78141360/141084085-117de4c7-d225-457b-98e6-4fe32ef62a50.png)
+![Picture3](https://user-images.githubusercontent.com/78141360/141084103-709cd0e3-d222-4822-b68d-16372f70448d.png)
 
 ### 4. Data Pre-processing
 Data pre-processing is one of the most critical steps in machine learning. As, if the data is not pre-processed, it can add noise to the data which in return affect the model. All real-world data consists of missing values, un-wanted columns, inconsistent data, etc. In this project, the following data pre-processing steps were included. 
@@ -101,10 +103,10 @@ Recall is the percentage of positive instance out of the total actual positive i
 ### 10. Result
 Gaussian Nave Bayes was found to be the best performing algorithm with high accuracy of 942363112 percentage. It also had one of the least execution time
 
-![Unigram][https://drive.google.com/file/d/1qyNnreusl_ffIWrokK0NR7MOp5vNxnPG/view?usp=sharing]  
-![Bigram][https://drive.google.com/file/d/17sbKBEwDV8GxmWYVkjmYPq4Jvhx80Bvr/view?usp=sharing]  
-![Trigram][https://drive.google.com/file/d/1uW_d9gsXnyULBZZpyQ4Kdf2vuU9eOL4n/view?usp=sharing]  
-![TF-IDF][https://drive.google.com/file/d/1pV9N32sQLDISkhVjQm7nO0rRWNXBqMGR/view?usp=sharing]  
+![tfidf](https://user-images.githubusercontent.com/78141360/141083768-41c605cd-4de1-4bb6-9e3c-af41ff4005c3.jpg)
+![Trigram](https://user-images.githubusercontent.com/78141360/141083824-fb77f427-d2b8-4efa-bf33-732c8845bf0c.jpg)
+![Bigram](https://user-images.githubusercontent.com/78141360/141083882-1e95a812-32b1-4eb6-9312-eef194d9fd9d.jpg)
+![Unigram](https://user-images.githubusercontent.com/78141360/141083907-ded2303b-5581-446e-9f3d-e27953cd12e9.jpg)  
 
 ### 11. Conclusion
 The main motive behind this research was to develop a model which has not only high accuracy but also low latency. To attain these results, several steps were carried out. Firstly, all the categorical variables with low correlations were removed to reduce the space complexity of the model. After this step, the bag of words model was created, which had high dimensionality problem with sparse matrix. To handle this problem, ChiSquare feature selection technique was used. This step also increased the accuracy of the machine learning algorithm by removing all the noisy data. Gaussian Nave Bayes was found to be the best performing algorithm.
