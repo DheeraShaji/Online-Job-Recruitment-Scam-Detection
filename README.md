@@ -35,7 +35,8 @@ CRISP-DM is the methodology selected for the project. CRISP-DM stands for cross 
 ## Implementation
 
 ### 1. Data Selection
-The dataset used in this project is downloaded from URL: http://emscad.samos.aegean.gr/.  
+The dataset used in this project is downloaded from URL: https://www.kaggle.com/amruthjithrajvr/recruitment-scam
+Dataset can also be accessed from: http://emscad.samos.aegean.gr/.  
 This dataset consists of 17866 rows and 18 columns.  
 The dependent variable has two primary classes, namely, fraudulent or genuine.  
 It is found that the data is highly imbalanced. The majority class has 1700 rows compared to only 866 rows of the minority class.  
