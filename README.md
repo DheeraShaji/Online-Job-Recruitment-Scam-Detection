@@ -20,7 +20,7 @@ It was found that only a few researches were carried out in the field of recruit
 
 ## Architecture Diagram
 
-![Diagram](https://drive.google.com/file/d/1Issx5S0lu-UazAqDG3IiNUmSB5OIu-hA/view?usp=sharing)
+![Picture1](https://user-images.githubusercontent.com/78141360/141083188-c8158bd3-488b-4ffe-b7d1-d0002e76f39f.png)
 ## Methodology
 CRISP-DM is the methodology selected for the project. CRISP-DM stands for cross industry process for data mining. CRISP-DM methodology provides a fixed structured approach for planning a data mining project.
 
