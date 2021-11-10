@@ -29,7 +29,7 @@ CRISP-DM is the methodology selected for the project. CRISP-DM stands for cross 
     3. Data preprocessing
     4. Modelling
     5. Evaluation
-![Picture2](https://user-images.githubusercontent.com/78141360/141084132-e2f286e6-909f-45d0-b027-f77fe88c1357.png)
+![Picture2](https://user-images.githubusercontent.com/78141360/141085554-edf0fe2d-31c7-4d94-9e18-e52488cc0329.png)
 
 
 ## Implementation
